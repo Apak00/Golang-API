@@ -11,7 +11,7 @@ import (
     jwt_lib "github.com/dgrijalva/jwt-go"
     "github.com/gin-gonic/contrib/jwt"
 )
-
+ 
 
 type Users struct {
     Id        int    `gorm:"AUTO_INCREMENT" form:"id" json:"id"`
